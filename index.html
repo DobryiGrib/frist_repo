@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to do list</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/animation.css" />
+  </head>
+  <body>
+<div class="container">
+  
+  <div class="modal">
+
+    <video autoplay muted loop class="modal-video">
+      <source src="./img/девка.mp4" type="video/mp4">
+      Ваш браузер не поддерживает видео.
+    </video>
+    <h2 class="modalH2">Новое задание</h2>
+    <input type="text" class="text" placeholder="Новое задание">
+   <ul>
+    <button id="add" class="modalBtn">Добавить</button>
+    <button id="cansel" class="modalBtn">Отмена</button>
+   </ul>
+  </div>
+
+
+  <div class="container">
+    <div class="main">
+      <div class="btn">
+        <img class="img-ikon" src="./img/free-icon-add-button-8379831.png" alt=""/>
+        <span class="span">Добавить</span>
+      </div>
+
+      <h1 class="h1">To do list</h1>
+      
+    </div>
+  </div>
+</div>
+    <script src="./jquery.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
